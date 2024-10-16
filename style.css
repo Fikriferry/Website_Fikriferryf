@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(37, 40, 47);
+    color: white;
+}
+
+.text-header{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-header{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.li-navbar {
+        list-style-type: none;
+        padding: 25px;
+        color: white;
+        font-size: 15px;
+    }
+
+.a-navbar {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+.product-card{
+    background-color: rgb(255, 255, 255);
+}
+
+.box-card{
+    display: flex;
+}
+
+.card { 
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    overflow: hidden; /* Memastikan konten tetap di dalam kotak */
+    text-align: center;
+    margin: 5px;
+}
+
+.card-img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; /* Gambar sesuai dengan kotak tanpa distorsi */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin: 10px 0; /* Jarak antar elemen */
+}
+
+.card-content p {
+    color: #555;
+    font-size: 1em;
+}
+
+.layanan thead{
+    background-color: rgb(76, 123, 176);
+    color: white;
+    height: 50px;
+}
+
+.contact-form{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.text-form{
+    padding-right: 5px;
+}
+
+footer{
+    background-color: #55555578;
+    padding: 10px;
+}
